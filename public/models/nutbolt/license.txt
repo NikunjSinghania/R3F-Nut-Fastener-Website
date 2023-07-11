@@ -1,0 +1,11 @@
+Model Information:
+* title:	nut&bolt
+* source:	https://sketchfab.com/3d-models/nutbolt-d7c6201d7b3f47a09afe491c6e1ed59c
+* author:	K-vandan (https://sketchfab.com/K-vandan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "nut&bolt" (https://sketchfab.com/3d-models/nutbolt-d7c6201d7b3f47a09afe491c6e1ed59c) by K-vandan (https://sketchfab.com/K-vandan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

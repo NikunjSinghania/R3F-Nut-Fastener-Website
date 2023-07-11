@@ -1,0 +1,11 @@
+Model Information:
+* title:	Metal nuts
+* source:	https://sketchfab.com/3d-models/metal-nuts-948cd02d1a6f4192b2fb66181b89e2df
+* author:	long_toi (https://sketchfab.com/long_toi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Metal nuts" (https://sketchfab.com/3d-models/metal-nuts-948cd02d1a6f4192b2fb66181b89e2df) by long_toi (https://sketchfab.com/long_toi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

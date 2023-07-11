@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;900&display=swap');
+#allProducts {
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.product {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+.product .imagesCollection {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+}
+
+.product .imagesCollection .main{
+    display: flex;
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+}
+
+.product .imagesCollection .sidesCollection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.product .imagesCollection .sidesCollection span{
+    height: 10vw;
+    width: 10vw;
+}
+
+
+
+.product .imagesCollection span img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+
+.product .productData {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.product .productData button{
+    width: fit-content;
+    text-align: center;
+    border: 2px solid orange;
+    appearance: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+
+}
+
+.product .productData h1 {
+    width: 50%;
+    background-image: linear-gradient(77deg ,rgba(255, 255, 255, 1), rgba(255, 153, 1, 0.79));
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 3vh;
+}
+
+
+@media screen and (max-width: 700px) {
+    .product .imagesCollection {
+        width: fit-content;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    .product .imagesCollection .main{
+        display: flex;
+        height: 90vw;
+        width: 90vw;
+        object-fit: cover;
+    }
+    .product .imagesCollection .sidesCollection {
+        display: flex;
+    }
+}

@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;900&display=swap');
+
+#canvasContainer {
+    position: fixed !important;
+    z-index: -100;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    scroll-snap-align: center;
+}
+
+nav {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    margin-top: 30px;
+    backdrop-filter: blur(5px);
+}
+
+nav svg {
+    height: 5vh;
+}
+
+nav svg path{
+    fill: white;
+}
+
+nav #linksContainer {
+    display: flex;
+}
+
+nav #linksContainer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+#homeMidContainer {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#homeMidContainer #content{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-weight: 2000;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+#homeMidContainer #content #intro{
+    color: rgb(135, 132, 132);
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    font-weight: 200;
+    overflow: hidden;
+    display: flex;
+}
+
+#homeMidContainer #content #intro p {
+    margin-right: 10px;
+}
+
+#homeMidContainer #content #text{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+#homeMidContainer #content #text span{
+    overflow: hidden;
+}
+
+
+#homeMidContainer #content #text p{
+    background-image: linear-gradient(77deg ,rgba(255, 255, 255, 1), rgba(255, 153, 1, 0.79));
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 5vh;
+    margin-right: 10px;
+}
+    
+
+#homeMidContainer #content a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 200px;
+    transition-duration: 1s;
+    transition-property: width;
+    text-align: start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    box-shadow: 0px 0px 1px orange, inset 0px 0px 1px orange;
+}
+
+#homeMidContainer #content #line {
+    width: 1px;
+    height: 1px;
+    transition-duration: 1s;
+    transition-property: width;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homeMidContainer #content #line {
+    width: 1px;
+    height: 1px;
+    background-color: white;
+}
+
+
+#homeMidContainer #content a:hover {
+    width: 300px;
+    transition-duration: 1s;
+    transition-property: width;
+}
+
+#homeMidContainer #content a:hover #line {
+    width: 100px;
+    transition-duration: 1s;
+    transition-property: width;
+}
+
+@media screen and (max-width: 700px) {
+
+    #homeMidContainer #content{
+        margin: 0;
+        align-items: center;
+    }
+
+    #homeMidContainer #content #text{
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+    }
+    #homeMidContainer #content #text p{
+        text-align: center;
+    }
+
+}
+
+/*************************************************************/
+
+#second {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second #secondLeftContent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#second #secondLeftContent #secondLeftContentIntro {
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+
+#second #secondLeftContent #secondLeftContentIntro p{
+    background-image: linear-gradient(77deg ,rgba(255, 255, 255, 1), rgba(255, 153, 1, 0.79));
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 5vh;
+}
+
+#second #secondLeftContent #secondLeftContentText {
+    color: white;
+    font-size: 1em;
+    width: 60%;
+    transform: translateY(100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+#second #secondLeftContent #secondLeftContentText #all {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+
+#second #secondLeftContent #secondLeftContentText #all span {
+    overflow: hidden;
+}
+
+
+#second #secondLeftContent #secondLeftContentText #all p {
+    text-align: center;
+    padding: 4px;
+    overflow: hidden;
+}
+
+#second #secondLeftContent  a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 250px;
+    transition-duration: 1s;
+    transition-property: width;
+    text-align: start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 1px orange, inset 0px 0px 1px orange;
+    margin: 20px;
+}
+
+#second #secondLeftContent  #line {
+    width: 1px;
+    height: 1px;
+    transition-duration: 1s;
+    transition-property: width;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#second #secondLeftContent  #line {
+    width: 1px;
+    height: 1px;
+    background-color: white;
+}
+
+
+#second #secondLeftContent  a:hover {
+    width: 300px;
+    transition-duration: 1s;
+    transition-property: width;
+}
+
+#second #secondLeftContent  a:hover #line {
+    width: 100px;
+    transition-duration: 1s;
+    transition-property: width;
+}
+
+@media screen and (max-width: 700px) {
+    #second #secondLeftContent #secondLeftContentText {
+        color: white;
+        font-size: 0.6em;
+        width: 100%;
+    }
+}
+
+/****************************************************************/
+
+#third {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+
+#third #thirdLeftContent {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#third #thirdLeftContentIntro {
+    overflow: hidden;
+}
+
+
+#third #thirdLeftContentIntro p {
+    background-image: linear-gradient(77deg ,rgba(255, 255, 255, 1), rgba(255, 153, 1, 0.79));
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 5vh;
+    width: fit-content;
+}
+
+
+#third #thirdLeftContentText {
+    display: flex;
+    width: 70vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+#third #thirdLeftContentText span{
+    overflow: hidden;
+}
+#third #thirdLeftContentText p {
+    color: white;
+    margin-right: 4px;
+}
+
+#third #cardsCollection {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    width: 70vw;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+#third svg path {
+    stroke: white;
+    stroke-width: 2px;
+}
+
+#third #cardsCollection span{
+    display: flex;
+    width: 15vw;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.309);
+    border: 1px solid rgba(225, 186, 112, 0.249);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#third #cardsCollection span img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+#third #cardsCollection span p{
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+#third #thirdLeftContent  a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 250px;
+    transition-duration: 1s;
+    transition-property: width;
+    text-align: start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 1px orange, inset 0px 0px 1px orange;
+    margin: 20px;
+}
+
+#third #thirdLeftContent  #line {
+    width: 1px;
+    height: 1px;
+    transition-duration: 1s;
+    transition-property: width;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#third #thirdLeftContent  #line {
+    width: 1px;
+    height: 1px;
+    background-color: white;
+}
+
+
+#third #thirdLeftContent  a:hover {
+    width: 300px;
+    transition-duration: 1s;
+    transition-property: width;
+}
+
+#third #thirdLeftContent  a:hover #line {
+    width: 100px;
+    transition-duration: 1s;
+    transition-property: width;
+}
+
+@media screen and (max-width: 700px) {
+    #third #cardsCollection {
+        flex-direction: column;
+    }
+    #third #thirdLeftContentIntro p {
+        margin: 10px;
+    }
+}
+
+/*******************************/
+
+#fourth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#fourth #collection{
+    height: 50vh;
+    width: 95vw;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.347);
+    margin: 20px;
+    border: 1px solid rgba(69, 45, 0, 0.327);
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#fourth #collection div {
+    display: flex;
+    color: white;
+    overflow: hidden;
+
+}
+
+
+#fourth #collection div span {
+    display: flex;
+}
+#fourth #logo  {
+    fill: white;
+    width: 10vw;
+}
+
+#fourth #collection #details span {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#fourth #collection #details span p{
+    padding: 10px;
+}
+
+#fourth #collection #links a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
